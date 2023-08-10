@@ -1,118 +1,181 @@
 .task1 .item {
+  position: absolute;
+  left: 200px;
+  top: 150px;
 }
 
 .task2 .item {
+  position: absolute;
+  left: 42% ;
+  top: 42%;
 }
 
 .task3 .item {
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 .container4 {
+  position: absolute;
+  top: 0 - calc(80px/2);
+  left: calc((100% - 80px)/2);
 }
 
-.task4 {
-  width: 1000px;
+.task5 {
+   width: 1000px;
+   position: relative;
 }
-.task4 .item {
+.task5 .item {
+  position: absolute;
+ 
 }
-
 .task5 .item1 {
   background-color: red;
+  
+  z-index: 2;
+    top: 20px;
+    left: 20px;
 }
 .task5 .item2 {
+  background-color: blue;
+  
+  z-index: 1;
+    top: 40px;
+    left: 40px;
 }
 .task5 .item3 {
   background-color: green;
+  
+  z-index: 3;
+  top: 0;
+  left: 0;
 }
 
 .task6 .item {
+  position: relative;
+  float: left;
+  clear: left;
 }
 
 .task7 .item {
+  position: relative;
+  float: right;
+  clear: left;
 }
 
 .task8 .item1 {
+  float: left;
+  clear: none;
 }
 .task8 .item2 {
   height: 120px;
+  float: right;
+  clear: none;
 }
 
 .task8 p {
+  clear: both;
 }
 
 .task9 .item1 {
   height: 200px;
+  float: left;
+  clear: none;
 }
 .task9 .item2 {
+  float: right;
+  clear: none;
 }
 .task9 p {
+  clear: right;
 }
 
 .task10 .item1 {
+  float: left;
+  clear: none;
 }
 .task10 .item2 {
+  height: 200px;
+  float: right;
+  clear: none;
 }
 .task10 p {
+  clear: left;
 }
 
 .task11 .img-item {
   height: 100%;
   width: 100%;
+  object-fit: contain;
+ 
 }
 
 .task12 .img-item {
   height: 100%;
   width: 100%;
+  object-fit: cover;
 }
 
 .task13 .img-item {
   height: 100%;
   width: 100%;
+  object-fit: fill;
 }
 
 .task14 .img-item {
   height: 100%;
   width: 100%;
+  object-fit: scale-down;
 }
 
 .task15 .img-item {
   height: 100%;
   width: 100%;
   object-fit: none;
+  object-position: center right;
 }
 
 .task16 .img-item {
   height: 100%;
   width: 100%;
   object-fit: none;
+  object-position: top left;
 }
 
 .task17 .img-item {
   height: 100%;
   width: 100%;
   object-fit: none;
+  object-position: bottom center
 }
 
 .task18 .img-item {
   height: 100%;
   width: 100%;
   object-fit: none;
+  object-position:  40px 25px;
 }
 
 .task19 .img-item {
   height: 100%;
   width: 100%;
   object-fit: none;
+  object-position: center;
 }
 
 .task20 {
+  user-select: none;
 }
 
 .task21 {
+  user-select: auto;
 }
 
 .task22 {
+  caret-color: blue;
 }
 
 html {
+  scroll-behavior: smooth;
 }
